@@ -205,9 +205,9 @@ local function drill_dig_it(pos, player, mode)
 	
 	if mode==4 then -- 3 tall, selected in the middle
 		drill_dig_it0 (pos,player)
-		pos.y=pos.y-1
+		pos.y=pos.y+1
 		drill_dig_it0 (pos,player)
-		pos.y=pos.y-1
+		pos.y=pos.y-2
 		drill_dig_it0 (pos,player)
 	end
 
